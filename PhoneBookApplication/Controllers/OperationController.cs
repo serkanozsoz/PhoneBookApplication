@@ -113,12 +113,12 @@ namespace PhoneBookApplication.Controllers
                 else if (s.ToLower() == "n")
                 {
                     Console.WriteLine("Kayıt silme onaylanmadı!");
-                    DeleteNumber();
+                    StartMethots();
                 }
                 else
                 {
                     Console.WriteLine("Yanlış bir giriş yaptınız!");
-                    DeleteNumber();
+                    StartMethots();
                 }
                 
                 
@@ -215,12 +215,12 @@ namespace PhoneBookApplication.Controllers
                 else if(s.ToLower() == "n")
                 {
                     Console.WriteLine("Kayıt güncelleme onaylanmadı!");
-                    UpdateNumber();
+                    StartMethots();
                 }
                 else
                 {
                     Console.WriteLine("Yanlış bir giriş yaptınız!");
-                    UpdateNumber();
+                    StartMethots();
                 }
             }
             else
