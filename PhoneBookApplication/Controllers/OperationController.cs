@@ -195,9 +195,9 @@ namespace PhoneBookApplication.Controllers
             string[] updatePhoneNumberModel = new string[itemsLength];
             if (phoneNumber != null)
             {
-                Console.WriteLine("{0} isimli kişi rehberden silinmek üzere, onaylıyor musunuz ?(y/n)", phoneNumber.Name);
+                Console.WriteLine("{0} isimli kişi güncellenmek üzere, onaylıyor musunuz ?(y/n)", phoneNumber.Name);
                 string s = Console.ReadLine();
-                if (s.ToLower() == "y" || s.ToLower() == "n")
+                if (s.ToLower() == "y")
                 {
                     for (int i = 0; i < itemsLength; i++)
                     {
@@ -209,11 +209,17 @@ namespace PhoneBookApplication.Controllers
                     phoneNumber.Surname = items[1];
                     phoneNumber.Number = items[2];
                     printRecord(phoneNumber);
+                    Console.WriteLine("Kayıt güncelleme başarıyla tamamlandı!");
 
+                }
+                else if(s.ToLower() == "n")
+                {
+                    Console.WriteLine("Kayıt güncelleme onaylanmadı!");
+                    UpdateNumber();
                 }
                 else
                 {
-                    Console.WriteLine("Kayıt silinemedi!");
+                    Console.WriteLine("Yanlış bir giriş yaptınız!");
                     UpdateNumber();
                 }
             }
