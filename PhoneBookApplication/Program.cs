@@ -10,7 +10,7 @@ namespace PhoneBookApplication
         {
             PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Serkan", "Özsöz", "123"));
             PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Mert", "Akçay", "456"));
-            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Ahmet", "Sayar", "789"));
+            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Yağızhan", "Demirci", "789"));
             PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Büşra", "Kızıl", "123"));
             PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Aslı", "Çakmak", "852"));
 

@@ -105,16 +105,22 @@ namespace PhoneBookApplication.Controllers
             {
                 Console.WriteLine("{0} isimli kişi rehberden silinmek üzere, onaylıyor musunuz ?(y/n)", nameOrSurname);
                 string s = Console.ReadLine();
-                if (s.ToLower() == "y" || s.ToLower() == "n")
+                if (s.ToLower() == "y")
                 {
                     PhoneBookListModel.phoneBookNumberList.Remove(phoneNumber);
                     Console.WriteLine("Kayıt rehberden başarıyla silindi!");
                 }
-                else
+                else if (s.ToLower() == "n")
                 {
-                    Console.WriteLine("Kayıt silinemedi!");
+                    Console.WriteLine("Kayıt silme onaylanmadı!");
                     DeleteNumber();
                 }
+                else
+                {
+                    Console.WriteLine("Yanlış bir giriş yaptınız!");
+                    DeleteNumber();
+                }
+                
                 
             }
             else
