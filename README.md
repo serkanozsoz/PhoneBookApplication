@@ -8,24 +8,25 @@
 
 <h3>Baþlangýç</h3>
 
-![main](1.PNG)
+![main](https://user-images.githubusercontent.com/100076932/166104792-e2621721-9c58-4e49-aa70-e5a5ada001c4.png)
 
 <h3>1) Yeni Numara Kaydetmek</h3>
 
-![add](2.png)
+![add](https://user-images.githubusercontent.com/100076932/166104802-8031ef68-0b89-4dcd-8266-5979d9dba0ab.png)
 
 <h3>2) Varolan Numarayý Silmek</h3>
 
-![delete](3.PNG)
+![delete](https://user-images.githubusercontent.com/100076932/166104811-78ab5f6c-c47d-4ddc-9844-76a415367747.png)
 
 <h3>3) Varolan Numarayý Güncelleme</h3>
 
-![update](33.PNG)
+![update](https://user-images.githubusercontent.com/100076932/166104892-df5c9fa0-5d19-41ce-bcd8-018544146c2c.png)
 
 <h3>4) Rehberi Listelemek</h3>
 
-![print](4.PNG)
+![print](https://user-images.githubusercontent.com/100076932/166104823-b86eb478-3c9a-499d-984a-cdc474a8f986.png)
 
 <h3>5) Rehberde Arama Yapmak?</h3>
 
-![search](5.PNG)
+![search](https://user-images.githubusercontent.com/100076932/166104868-174e2fcd-e0d8-4ac1-9b7a-e475dc5fce3f.png)
+076932/166104830-934b85da-cc78-4856-8e6f-5c35e9e4407c.png)
