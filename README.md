@@ -1,4 +1,4 @@
-# Rehber Uygulamasý
+# Rehber Uygulamasi
 <h1>Özellikler</h1>
 <h3>1) Yeni Numara Kaydetmek</h3>
 <h3>2) Varolan Numarayý Silmek</h3>
@@ -29,4 +29,3 @@
 <h3>5) Rehberde Arama Yapmak?</h3>
 
 ![search](https://user-images.githubusercontent.com/100076932/166104868-174e2fcd-e0d8-4ac1-9b7a-e475dc5fce3f.png)
-076932/166104830-934b85da-cc78-4856-8e6f-5c35e9e4407c.png)
