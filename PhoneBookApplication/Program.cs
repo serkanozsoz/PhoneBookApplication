@@ -9,10 +9,10 @@ namespace PhoneBookApplication
         static void Main(string[] args)
         {
             PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Serkan", "Özsöz", "123"));
-            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Mert", "Akçay", "456"));
-            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Yağızhan", "Demirci", "789"));
-            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Büşra", "Kızıl", "123"));
-            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Aslı", "Çakmak", "852"));
+            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Leyla", "Aydın", "456"));
+            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Ayaz", "Demirci", "789"));
+            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Selim", "Kızıl", "345"));
+            PhoneBookListModel.phoneBookNumberList.Add(new PhoneBookNumberModel("Eylül", "Çakmak", "852"));
 
             
             OperationController.StartMethots();
